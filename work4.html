@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ekusika's Portfolio</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/okayNav.min.css">
+    </head>
+	<body>
+        <header id="header" class="okayNav-header">
+            <a class="site-logo okayNav-header__logo" href="index.html">Ekusika's Portfolio</a>
+            <nav role="navigation" id="nav-main" class="okayNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contacts　</a></li>
+                </ul>
+            </nav>
+        </header>
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="js/jquery.okayNav-min.js"></script>
+        <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
+        <div class="header-margin">
+            <div id="works">
+                <h2>まほうつかいになろう</h2>
+                <p id="wphoto"><img src="image/magic.png" alt="" title="まほうつかいになろう"></p>
+                <table>
+                    <tr><td>使用言語</td><td>Processing</td></tr>
+                    <tr><td>制作時期</td><td>2017年8月</td></tr>
+                    <tr><td>制作期間</td><td>3か月間</td></tr>
+                    <tr><td>授業</td><td>2年ゼミ</td></tr>
+                    <tr><td>概要</td><td>未就学児を対象としたデジタル遊びコンテンツ</td></tr>
+                    <tr><td></td><td>新聞紙や色紙を使って自分専用の杖を作り，指定された場所に置いて呪文を唱えると</td></tr>
+                    <tr><td></td><td>プロジェクターから杖の色にあったエフェクトが表示される</td></tr>
+                </table>
+                <p>
+                    杖の色をWebカメラで読み取り，その数値と特徴が一番マッチしている色のエフェクトを表示させる
+                    <br>子供にWebカメラを意識させないよう，カメラの大きさに合わせた装置を段ボールで制作した．
+                    <br>カメラの装置と同じ見た目のものを対にして置くことで，<br>
+                    見た目のバランスと杖が置かれていない時の判定を行うようにした．
+                </p>
+                <p id="wphoto"><img src="image/magic1.png" alt="" title="Webカメラの設置1"></p>
+                <p id="wphoto"><img src="image/magic2.png" alt="" title="Webカメラの設置2"></p>
+                <a href="javascript:history.back()">戻る</a>
+            </div>
+        </div>
+        <hr>
+		<footer>本内容の著作権は古市冴佳に属します。 /Copyright ⓒ Saeka Furuichi</footer>
+    </body>
+</html>
