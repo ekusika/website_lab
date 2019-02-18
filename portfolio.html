@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>saeka furuichi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div uk-sticky="media: 640" class="uk-navbar-container tm-navbar-container uk-sticky">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+          <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+              <a href="index.html" class="uk-navbar-item uk-logo">
+                <img uk-svg scr="" class="uk-margin-small-right" hidden="true" />
+                Saeka's page
+              </a>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav uk-visible@s">
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="research.html">Research</a>
+                </li>
+                <li class="uk-active">
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a href="works.html">Hobbies works</a>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                </li>
+              </ul>
+              <a uk-navbar-toggle-icon href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-hidden@s uk-navbar-toggle-icon uk-icon">
+                <span class="uk-margin-small-left">Menu&nbsp;</span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="uk-sticky-placeholder" style="height: 80px; margin: 0px;" hidden></div>
+      <div class="tm-main uk-section uk-section-default">
+        <div class="uk-container uk-container-small uk-position-relative">
+          <h2 class="uk-text-danger uk-text-bold uk-heading-line"><span>Portfolio</span></h2>
+          <div>
+            <div class="uk-background-muted uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-card-media-left uk-cover-container uk-flex uk-flex-middle">
+                <img src="image/life.png" title="Campas Life Game" alt="" uk-img>
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Campas Life Game</h3>
+                <p>
+                  <h5>ブラウザ上でプレイする人生ゲーム</h5>
+                  2年のコンテンツメディアプログラミング実習Ⅱで発表した共同制作物．
+                  スタートとゴールを大学の入学式と卒業式に設定した大学生活に沿った内容で，
+                  CHIRIMENを用いて実際に車も動くようにした．
+                </p>
+                <a class="uk-button uk-button-default" href="#work-5" uk-toggle>Read more</a>
+                <div id="work-5" class="uk-modal-full" uk-modal>
+                  <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                      <div class="uk-padding-large">
+                        <p>
+                          <h1 class="uk-text-danger">Campus Life Game</h1>
+                          <table class="uk-table uk-table-divider uk-table-small">
+                              <tr><td>言語 <span uk-icon="icon: code"></span></td><td>php, html, css, javascript</td></tr>
+                              <tr><td>時期 <span uk-icon="icon: calendar"></span></td><td>2018 / 1</td></tr>
+                              <tr><td>期間 <span uk-icon="icon: history"></span></td><td>1 month</td></tr>
+                          </table>
+                          人生ゲームは楽しい反面，お金の紙などの小物が多く管理が大変，一度始めると中断しにくいなどの課題がある．
+                          そこで，ブラウザ上で行うことで面倒な作業をコンピュータに任せ，気楽に遊ぶことができるのではないかと考え作成した．
+                          <br />また，実物があるからこその楽しみを失いたくはなかったので，<a class="uk-text-muted" href="https://chirimen.org/">CHIRIMEN</a>を用いて実際に車も動くようにした．
+                        </p>
+                        <br />
+                        <video controls src="image/igrsB.mp4"></video>
+                      </div>
+                      <div class="uk-background-contain" style="background-image: url('image/life.png');" uk-height-viewport></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-background-muted uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-flex uk-flex-middle">
+                <img src="image/magic.png" alt="" title="まほうつかいになろう" uk-img>
+                <canvas width="400"></canvas>
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">まほうつかいになろう</h3>
+                <p>
+                  <h5>未就学児を対象としたデジタル遊びコンテンツ</h5>
+                  2年のゼミ課題．
+                  新聞紙や色紙を使って自分専用の杖を作り，指定された場所に置いて呪文を唱えることで，<br>
+                  プロジェクターから杖の色にあったエフェクトが表示される．
+                </p>
+                <a class="uk-button uk-button-default" href="#work-4" uk-toggle>Read more</a>
+                <div id="work-4" class="uk-modal-full" uk-modal>
+                  <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                      <div class="uk-padding-large">
+                        <p>
+                          <h1 class="uk-text-danger">まほうつかいになろう</h1>
+                          <table class="uk-table uk-table-divider uk-table-small">
+                              <tr><td>言語 <span uk-icon="icon: code"></span></td><td>Processing</td></tr>
+                              <tr><td>時期 <span uk-icon="icon: calendar"></span></td><td>2017 / 8</td></tr>
+                              <tr><td>期間 <span uk-icon="icon: history"></span></td><td>3 month</td></tr>
+                          </table>
+                          杖の色をWebカメラで読み取り，その数値と特徴が一番マッチしている色のエフェクトを表示させる．
+                          子供にWebカメラを意識させないよう，カメラの大きさに合わせた装置を段ボールで制作した．
+                          カメラの装置と同じ見た目のものを対にして置くことで，見た目のバランスと杖が置かれていない時の判定を行うようにした．
+                        </p>
+                        <br />
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+                          <ul class="uk-slideshow-items">
+                              <li>
+                                  <img src="image/magic1.png" alt="" uk-cover>
+                              </li>
+                              <li>
+                                <img src="image/magic2.png" alt="" uk-cover>
+                              </li>
+                          </ul>
+                          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                        </div>
+                      </div>
+                      <div class="uk-background-contain" style="background-image: url('image/magic.png');" uk-height-viewport></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-background-muted uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-card-media-left uk-cover-container uk-flex uk-flex-middle">
+                <img src="image/matlab.png" title="画像の色面分割ツール" alt="" uk-img>
+                <canvas width="400"></canvas>
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">画像の色面分割ツール</h3>
+                <p>
+                  <h5>色面分割という技法を誰でも簡単に作ることができるツール</h5>
+                  授業課題で色面分割を使用したときに色やバランスの調節が大変でとても時間がかかったため，
+                  誰でも簡単に使用できるツールを作ろうと考えた．
+                </p>
+                <a class="uk-button uk-button-default" href="#work-3" uk-toggle>Read more</a>
+                <div id="work-3" class="uk-modal-full" uk-modal>
+                  <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                      <div class="uk-padding-large">
+                        <p>
+                          <h1 class="uk-text-danger">画像の色面分割ツール</h1>
+                          <table class="uk-table uk-table-divider uk-table-small">
+                              <tr><td>言語 <span uk-icon="icon: code"></span></td><td>Processing</td></tr>
+                              <tr><td>時期 <span uk-icon="icon: calendar"></span></td><td>2017 / 8</td></tr>
+                              <tr><td>期間 <span uk-icon="icon: history"></span></td><td>2 month</td></tr>
+                          </table>
+                          分割をする際の操作感にこだわって制作した．
+                          画像上でドラックをすることでその枠内を2つに分割することができ，調整や分割の取り消しなども可能．
+                          色はランダムでつけることも，自身でカスタマイズすることもできる．
+                          <br /><br />動画の用意ができ次第載せたいと思います．
+                        </p>
+                        <br />
+                        <video controls src="image/.mp4"></video>
+                      </div>
+                      <div class="uk-background-contain" style="background-image: url('image/matlab.png');" uk-height-viewport></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-background-muted uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-flex-last@s uk-card-media-right uk-cover-container uk-flex uk-flex-middle">
+                <img src="image/mandala.png" alt="" title="糸かけ曼荼羅制作ツール" uk-img>
+                <canvas width="400"></canvas>
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">糸かけ曼荼羅制作ツール</h3>
+                <p>
+                  <h5>糸かけ曼荼羅をコンピュータ上で簡単に再現できるツール</h5>
+                  PML.という授業で糸かけ曼荼羅を体験した際に制作にいたった．
+                </p>
+                <a class="uk-button uk-button-default" href="#work-2" uk-toggle>Read more</a>
+                <div id="work-2" class="uk-modal-full" uk-modal>
+                  <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                      <div class="uk-padding-large">
+                        <p>
+                          <h1 class="uk-text-danger">糸かけ曼荼羅制作ツール</h1>
+                          <table class="uk-table uk-table-divider uk-table-small">
+                              <tr><td>言語 <span uk-icon="icon: code"></span></td><td>Processing</td></tr>
+                              <tr><td>時期 <span uk-icon="icon: calendar"></span></td><td>2017 / 7</td></tr>
+                              <tr><td>期間 <span uk-icon="icon: history"></span></td><td>2 days</td></tr>
+                          </table>
+                          実際に作るときには完成図をイメージすることができないが，お気に入りの作品を作るまでいくつも作ることは時間がかかってしまう．
+                          「こんな配色でこの順序にしたらどうなるのだろう」と思ったときにすぐに試してみたいと思い，実装してみた．
+                          色の順序や留め具の本数なども後から調整することができる．
+                        </p>
+                        <video controls src="image/mandala.mp4"></video>
+                      </div>
+                      <div class="uk-background-contain" style="background-image: url('image/mandala.png');" uk-height-viewport></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="uk-background-muted uk-card uk-card-default uk-card-hover uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-card-media-left uk-cover-container uk-flex uk-flex-middle">
+                <img src="image/edit.png" alt="" title="Edit with World" uk-img>
+                <canvas width="400"></canvas>
+              </div>
+              <div class="uk-card-body">
+                <h3 class="uk-card-title">Edit with World</h3>
+                <p>
+                  <h5>画像加工機能とペイント機能が融合したツール</h5>
+                  大学1年時のプログラミング演習Ⅱで発表した共同制作物．
+                  始めてプログラミングで共同制作をした．
+                </p>
+                <a class="uk-button uk-button-default" href="#work-1" uk-toggle>Read more</a>
+                <div id="work-1" class="uk-modal-full" uk-modal>
+                  <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                    <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                      <div class="uk-padding-large">
+                        <p>
+                          <h1 class="uk-text-danger">Edit with World</h1>
+                          <table class="uk-table uk-table-divider uk-table-small">
+                              <tr><td>言語 <span uk-icon="icon: code"></span></td><td>Processing</td></tr>
+                              <tr><td>時期 <span uk-icon="icon: calendar"></span></td><td>2017 / 1</td></tr>
+                          </table>
+                          通常の画像処理と，フォトモザイクやカラーハーフトーンなどの画像加工機能，ユーザインタフェースを担当した．
+                          色を設定するスライダーバーは，どんな色かが分かりやすいようにつまみの部分にその色を表示させた．
+                        </p>
+                      </div>
+                      <div class="uk-background-contain" style="background-image: url('image/edit.png');" uk-height-viewport></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer uk-text-center" style="background: #2292F1; color: #fff">
+      ©️2019 Saeka Furuichi All Right Reserved. <a href="#" style="color: rgba(255,255,255,.7)" uk-totop uk-scroll></a><br />
+      Designed by <a href="https://getuikit.com/" style="color: rgba(255,255,255,.7);"><span uk-icon="uikit"></span>Uikit</a>
+    </div>
+    <div id="offcanvas" uk-offcanvas="mode: push; flip: true" class="uk-offcanvas" style>
+      <div class="uk-offcanvas-bar">
+        <div class="uk-panel">
+          <ul class="uk-nav uk-nav-default tm-nav">
+            <li class="uk-nav-header">Menu</li>
+            <li class="uk-nav-divider"></li><br />
+            <li>
+              <h3><a href="index.html">Saeka's page</a></h3>
+            </li>
+            <li>
+              <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+              <a href="research.html">RESEARCH</a>
+            </li>
+            <li class="uk-active">
+              <a href="portfolio.html">PORTFOLIO</a>
+            </li>
+            <li>
+              <a href="works.html">HOBBIES WORKS</a>
+            </li>
+            <li>
+              <a href="contacts.html">CONTACTS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

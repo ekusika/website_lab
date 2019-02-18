@@ -1,80 +1,133 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>ekusika's Portfolio</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/okayNav.min.css">
-    </head>
-	<body>
-        <header id="header" class="okayNav-header">
-            <a class="site-logo okayNav-header__logo" href="index.html">Top page</a>
-            <nav role="navigation" id="nav-main" class="okayNav">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="works.html">Works</a></li>
-                    <li><a href="others.html">Others</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-        <script src="js/jquery.okayNav-min.js"></script>
-        <script type="text/javascript">var navigation = $('#nav-main').okayNav();</script>
-        <div class="header-margin">
-					<div class="ekusika">
-					<img class="ekusika" src="img/ekusika.jpg" alt="" title="ekusika" align="left">
-					<table>
-						<tr>
-							<td>Name</td>
-							<td>古市冴佳　Saeka Furuichi</td>
-						</tr>
-						<tr>
-							<td>Dept.</td>
-							<td>明治大学総合数理学部先端メディアサイエンス学科3年　中村研究室</td>
-						</tr>
-						<tr>
-							<td>From</td>
-							<td>東京→キェルツェ(ポーランド)→埼玉→神奈川</td>
-						</tr>
-						<tr>
-							<td>Birthday</td>
-							<td>1997/12/1</td>
-						</tr>
-						<tr>
-							<td>Career</td>
-							<td>2016年3月　神奈川県立柏陽高校卒業</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>2016年4月　明治大学総合数理学部先端メディアサイエンス学科入学</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>2020年3月　明治大学総合数理学部先端メディアサイエンス学科卒業予定</td>
-						</tr>
-					</table>
-				</div>
-
-				<h3>趣味</h3>
-					<p>
-						食べること，写真撮影，バレエ・ダンス，消しゴムはんこ，もの作り、筋トレ
-					</p>
-					<h3>使用言語</h3>
-					<p>
-						processing, php, vvvv, unity<br />
-						SwifとtPythonを勉強したい
-					</p>
+  <head>
+    <title>saeka furuichi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div uk-sticky="media: 640" class="uk-navbar-container tm-navbar-container uk-sticky">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+          <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left">
+              <a href="index.html" class="uk-navbar-item uk-logo">
+                <img uk-svg scr="" class="uk-margin-small-right" hidden="true" />
+                Saeka's page
+              </a>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav uk-visible@s">
+                <li class="uk-active">
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="research.html">Research</a>
+                </li>
+                <li>
+                  <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                  <a href="works.html">Hobbies works</a>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                </li>
+              </ul>
+              <a uk-navbar-toggle-icon href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-hidden@s uk-navbar-toggle-icon uk-icon">
+                <span class="uk-margin-small-left">Menu&nbsp;</span>
+              </a>
+            </div>
+          </nav>
         </div>
-        <hr>
-				<div class="menu">
-		      <br />
-		      <a href="about.html" class="button"><span>プロフィール</span><span>About</span></a>&emsp;&emsp;
-		      <a href="works.html" class="button"><span>作品</span><span>Works</span></a>&emsp;&emsp;
-		      <a href="others.html" class="button"><span>そのほかの作品</span><span>Others</span></a>&emsp;&emsp;
-		      <a href="contact.html" class="button"><span>連絡先</span><span>Contact</span></a>
-		    </div>
-		<footer><br />本内容の著作権は古市冴佳に属します。 /Copyright ⓒ Saeka Furuichi</footer>
+      </div>
+      <div class="uk-sticky-placeholder" style="height: 80px; margin: 0px;" hidden></div>
+    	<div class="tm-main uk-section uk-section-default">
+        <div class="uk-container uk-container-small uk-position-relative">
+          <h2 class="uk-text-danger uk-text-bold uk-heading-line"><span>About</span></h2>
+        		<article class="uk-comment">
+						<header class="uk-comment-header uk-grid-medium uk-flex-middle" uk-grid>
+							<div class="uk-width-auto">
+								<img class="uk-comment-avatar" src="image/mine.JPG" width="100" height="100" alt="" align="left">
+							</div>
+							<div class="uk-width-expand">
+								<h4 class="uk-comment-title">Furuichi Saeka　(21)</h4>
+								<ul class="uk-comment-meta uk-margin-remove-top uk-list">
+									<li>古市 冴佳</li>
+									<li>Student</li>
+									<li>明治大学総合数理学部先端メディアサイエンス学科3年　中村研究室</li>
+								</ul>
+							</div>
+			      </header>
+						<div class="uk-comment-body">
+							<table class="uk-table uk-table-divider uk-table-small">
+								<tr>
+									<td>From</td>
+									<td colspan="2">東京<span uk-icon="triangle-right"></span>Kielce（Poland）<span uk-icon="triangle-right"></span>
+										埼玉<span uk-icon="triangle-right"></span>神奈川</td>
+								</tr>
+								<tr>
+									<td>Career</td>
+									<td>2016/3</td><td>神奈川県立柏陽高校卒業</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>2016/4</td><td>明治大学総合数理学部先端メディアサイエンス学科入学</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>2020/3</td><td>明治大学総合数理学部先端メディアサイエンス学科卒業予定</td>
+								</tr>
+							</table>
+						</div>
+					</article><br />
+          <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+	          <div class="uk-card uk-card-small uk-card-default uk-card-body">
+			        <h3 class="uk-card-title uk-text-danger uk-text-bold">趣味 <span uk-icon="happy"></span></h3>
+			        <p>食べること，写真撮影，バレエ・ダンス，消しゴムはんこ，もの作り、筋トレ</p>
+		        </div>
+            <div class="uk-card uk-card-small uk-card-default uk-card-body">
+			        <h3 class="uk-card-title uk-text-primary uk-text-bold">使用言語 <span uk-icon="code"></span></h3>
+		          processing, php, unity<br />
+		          SwifとtPythonを勉強中…
+            </div>
+	        </div>
+        </div>
+		</div>
+		<div class="footer uk-text-center" style="background: #2292F1; color: #fff">
+			©️2019 Saeka Furuichi All Right Reserved. <a href="#" style="color: rgba(255,255,255,.7)" uk-totop uk-scroll></a><br />
+	      Designed by <a href="https://getuikit.com/" style="color: rgba(255,255,255,.7);"><span uk-icon="uikit"></span>Uikit</a>
+  	</div>
+		<div id="offcanvas" uk-offcanvas="mode: push; flip: true" class="uk-offcanvas" style>
+			<div class="uk-offcanvas-bar">
+				<div class="uk-panel">
+					<ul class="uk-nav uk-nav-default tm-nav">
+						<li class="uk-nav-header">Menu</li>
+						<li class="uk-nav-divider"></li><br />
+						<li>
+							<h3><a href="index.html">Saeka's page</a></h3>
+						</li>
+						<li class="uk-active">
+							<a href="about.html">ABOUT</a>
+						</li>
+						<li>
+							<a href="research.html">RESEARCH</a>
+						</li>
+						<li>
+							<a href="portfolio.html">PORTFOLIO</a>
+						</li>
+						<li>
+							<a href="works.html">HOBBIES WORKS</a>
+						</li>
+						<li>
+							<a href="contacts.html">CONTACTS</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
